@@ -1,0 +1,11 @@
+{
+  "name": "Supabase Codespace",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "./.devcontainer/setup.sh",
+  "portsAttributes": {
+    "54321": { "label": "Supabase API", "onAutoForward": "openBrowser" },
+    "54323": { "label": "Supabase Studio", "onAutoForward": "openBrowser" }
+  }
+}
